@@ -3,7 +3,18 @@ entries:
   eva-iam:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-08-05T09:17:10.563652613Z"
+    created: "2026-08-05T09:33:10.132345514Z"
+    description: EVA SSO stack (Keycloak, postgres, Redis, BCL dispatcher, HAProxy)
+      ported from apps/docker-compose.yml
+    digest: 30665335da3e3d0b14c3998da72ecfb6f80cd569dd0e5901abd144204ec569cc
+    name: eva-iam
+    type: application
+    urls:
+    - https://mellerikat.github.io/eva-iam/eva-iam-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2026-08-05T09:33:10.129499896Z"
     description: EVA SSO stack (Keycloak, postgres, Redis, BCL dispatcher, HAProxy)
       ported from apps/docker-compose.yml
     digest: db6f1223185c51b4746020fa312d8fcb85100f490e03e1cf12ca1ffe9c48ea1c
@@ -14,7 +25,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-08-05T09:17:10.561430396Z"
+    created: "2026-08-05T09:33:10.126554863Z"
     description: EVA SSO stack (Keycloak, postgres, Redis, BCL dispatcher, HAProxy)
       ported from apps/docker-compose.yml
     digest: c2f603432a61b31318baf7122e439a92cbfc58ada088743e137262f7225890b2
@@ -25,7 +36,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-08-05T09:17:10.558569996Z"
+    created: "2026-08-05T09:33:10.123005611Z"
     description: EVA SSO stack (Keycloak, postgres, Redis, BCL dispatcher, HAProxy)
       ported from apps/docker-compose.yml
     digest: 66d7a2fe13d1db5b559e34848ed754f1fc199fe5dd8f1cb8c8fd5f1c1bf97836
@@ -36,7 +47,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-08-05T09:17:10.557446175Z"
+    created: "2026-08-05T09:33:10.120140897Z"
     description: EVA SSO stack (Keycloak, postgres, Redis, BCL dispatcher, HAProxy)
       ported from apps/docker-compose.yml
     digest: 2381a86a0152d7f75f27b0080cccfa4e5af44eac8102b6c4f029b35c8cc0f88f
@@ -47,7 +58,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2026-08-05T09:17:10.556053859Z"
+    created: "2026-08-05T09:33:10.118748565Z"
     description: EVA SSO stack (Keycloak, postgres, Redis, BCL dispatcher, HAProxy)
       ported from apps/docker-compose.yml
     digest: 8fb205e93bc6570bb923dfbed8d08111f5f893e25089c8e3098002d6bdfe5e72
@@ -56,4 +67,4 @@ entries:
     urls:
     - https://mellerikat.github.io/eva-iam/eva-iam-0.0.2.tgz
     version: 0.0.2
-generated: "2026-08-05T09:17:10.554441502Z"
+generated: "2026-08-05T09:33:10.117271026Z"
